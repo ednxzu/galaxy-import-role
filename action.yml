@@ -1,0 +1,15 @@
+---
+# action file
+name: Galaxy import role
+description: Import a role to ansible-galaxy using a given API key
+
+inputs:
+  galaxy-api-key:
+    required: true
+    description: The key to use to authenticate against ansible-galaxy
+
+runs:
+  using: docker
+  image: Dockerfile
+  env:
+    GALAXY_API_KEY: ${{ inputs.galaxy-api-key }}
