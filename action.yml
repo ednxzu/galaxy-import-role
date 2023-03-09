@@ -12,4 +12,4 @@ runs:
   using: docker
   image: Dockerfile
   env:
-    GALAXY_API_KEY: ${{ inputs.galaxy-api-key }}
+    GALAXY_API_TOKEN: ${{ inputs.galaxy-api-key }}
