@@ -1,5 +1,5 @@
 # Action: import ansible galaxy role
-> This repository is only a mirror. Development and testing is done on a private gitlab server.
+> This repository is only a mirror. Development and testing is done on a private gitea server.
 
 This action imports the repository as an ansible-galaxy role
 
