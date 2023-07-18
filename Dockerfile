@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1.2
 FROM python:3.11
 
-RUN pip3 install --upgrade pip
+RUN pip3 install --upgrade ansible-core
 
 COPY entrypoint.sh /entrypoint.sh
 
